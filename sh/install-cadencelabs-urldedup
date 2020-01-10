@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+mkdir -p app/code/Cadence/UrlDedup
+git clone https://github.com/cadencelabs/urldedup app/code/Cadence/UrlDedup
+php bin/magento setup:upgrade

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# ./install-olegkoval-magento2-regenerate-url-rewrites-composer
+
+php bin/magento ok:urlrewrites:regenerate

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+bin/magento setup:static-content:deploy -l ru_RU
+bin/magento indexer:reindex
+bin/magento cache:clean
+bin/magento cache:flush

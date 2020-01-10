@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+php bin/magento indexer:status

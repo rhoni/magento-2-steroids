@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+bin/magento i18n:pack app/i18n/grab/ru_RU/ru_RU.csv -d ru_RU
+bin/magento setup:static-content:deploy en_US -f
+bin/magento setup:static-content:deploy ru_RU -f
+bin/magento cache:clean

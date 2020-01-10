@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+composer require olegkoval/magento2-regenerate-url-rewrites
+php bin/magento module:enable OlegKoval_RegenerateUrlRewrites
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
