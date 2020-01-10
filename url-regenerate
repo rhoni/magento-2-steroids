@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# https://www.cadence-labs.com/2017/11/magento-2-fix-duplicate-url-key-for-categories-and-products/
 # ./install-olegkoval-magento2-regenerate-url-rewrites-composer
 
 php bin/magento ok:urlrewrites:regenerate
